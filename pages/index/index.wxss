@@ -1,0 +1,16 @@
+
+.logo-avatar {
+	width:100%;
+	height: 300rpx;
+
+
+}
+.logo {
+	display: flex;
+	flex-direction: column;
+	padding: 50rpx 0;
+	align-items: center;
+  background:#32cd32;
+}
+
+

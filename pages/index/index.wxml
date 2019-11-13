@@ -1,0 +1,42 @@
+
+<view bindtap="bindViewTap" class="logo">
+  <image class="logo-avatar" background-size="cover"></image>
+</view>
+
+
+
+
+<view class='icons'>
+  <view bindtap='createExcel' class="bindtap">
+    <image src="../../images/create.png" class="icon_s1"></image>
+  </view>
+  <view bindtap='inputExcel' class="bindtap">
+    <image src="../../images/input.png" class="icon_s"></image>
+  </view>
+  <view bindtap='downloadExcel' class="bindtap">
+    <image src="../../images/download.png" class="icon_s1"></image>
+  </view>
+
+</view>
+
+
+
+
+
+
+<!--
+<view class="inputView" style="margin-top:10%">
+  <input class="input"  placeholder="输入通讯录名字Input Contact Name" placeholder-style="color: #aab2bd" bindinput='inputId' value='{{id}}' bindfocus="showhistory" />
+</view> -->
+
+
+
+<!-- <button class="search-bt"  bindtap="createExcel" >创建管理员Excel</button>
+
+<button class="search-bt"  bindtap="downloadExcel" > 通讯录管理</button> -->
+<!-- <view>
+  <image src="../../images/down.png" class="img-style" animation="{{animCollect}}" bindtap="downloadExcel"></image>
+  <image src="../../images/up.png" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image>
+  <image src="../../images/pluss.png" class="img-style" animation="{{animInput}}" bindtap="input"></image>
+  <image src="../../images/plus.png" class="img-plus-style" animation="{{animPlus}}" bindtap="plus"></image>
+</view> -->

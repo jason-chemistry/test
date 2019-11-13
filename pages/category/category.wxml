@@ -1,0 +1,141 @@
+<view class='productNav'>
+  <!-- 左侧 -->
+  <view class='left'>
+    <view class="{{active==0?'selected':'normal'}}" id="0" bindtap='switchNav'>学前</view>
+    <view class="{{active==1?'selected':'normal'}}" id="1" bindtap='switchNav'>小学</view>
+    <view class="{{active==2?'selected':'normal'}}" id="2" bindtap='switchNav'>初中</view>
+    <view class="{{active==3?'selected':'normal'}}" id="3" bindtap='switchNav'>高中</view>
+
+
+  </view>
+  <!-- 右侧 -->
+  <view class='right'>
+    <view class='type'>
+      <!-- current:当前所在滑块的 index -->
+      <!-- vertical:滑动方向是否为纵向 -->
+      <swiper current='{{currentTab}}' vertical='{{true}}'>
+        <!-- catchtouchmove 阻止弹窗后滚动穿透 -->
+        <swiper-item id="0" catchtouchmove="false">
+
+
+        </swiper-item>
+        <swiper-item id="1" catchtouchmove="false">
+          <view>
+            <view class="weui-cell">
+              <view>一年级</view>
+            </view>
+            <view class="navis">
+              <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+              <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+              <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+            </view>
+            <view class="weui-cells"></view>
+          </view>
+          <view class="weui-cell">
+            二年级
+          </view>
+          <view class="navis">
+           
+              <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+              <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+              <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+            </view>
+            <view class="weui-cells"></view>
+            <view class="weui-cell">
+              三年级
+            </view>
+            <view class="navis">
+             
+                <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+                <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+                <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+              </view>
+              <view class="weui-cells"></view>
+              <view class="weui-cell">
+                四年级
+              </view>
+              <view class="navis">
+            
+                  <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+                  <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+                  <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+                </view>
+                <view class="weui-cells"></view>
+                <view class="weui-cell">
+                  五年级
+                </view>
+                <view class="navis">
+                  
+                    <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+                    <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+                    <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+                  </view>
+                  <view class="weui-cells"></view>
+                  <view class="weui-cell">
+                    六年级
+                  </view>
+                  <view class="navis">
+                   
+                      <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+                      <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+                      <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+                    </view>
+                    <view class="weui-cells"></view>
+
+        </swiper-item>
+        <swiper-item id="2" catchtouchmove="false">
+          <view class="weui-cell">
+            <view>初一</view>
+          </view>
+            <view class="navis">
+                   
+                      <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+                      <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+                      <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+
+                      <view class="navi" bindtap='click' data-text='SCIENCE'>科学</view>
+                    </view>
+          <view class="weui-cells"></view>
+          <view class="weui-cell">
+            初二
+          </view>
+          <view class="navis">
+                   
+                      <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+                      <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+                      <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+
+                      <view class="navi" bindtap='click' data-text='SCIENCE'>科学</view>
+                    </view>
+          <view class="weui-cells"></view>
+          <view class="weui-cell">
+            初三
+          </view>
+          <view class="navis">
+                   
+                      <view class="navi" bindtap='click' data-text='CHINESE'>语文</view>
+                      <view class="navi" bindtap='click' data-text='MATH'>数学</view>
+                      <view class="navi" bindtap='click' data-text='ENGLISH'>英语</view>
+
+                      <view class="navi" bindtap='click' data-text='SCIENCE'>科学</view>
+                    </view>
+
+        </swiper-item>
+        <swiper-item id="3" catchtouchmove="false">
+          <view class="weui-cell">
+            高一
+          </view>
+          <view class="weui-cells"></view>
+          <view class="weui-cell">
+            高二
+          </view>
+          <view class="weui-cells"></view>
+          <view class="weui-cell">
+            高三
+          </view>
+        </swiper-item>
+      </swiper>
+      </view>
+
+      </view>
+      </view>

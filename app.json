@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/category/category",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/pageOne/pageOne",
+    "pages/detail/detail"
+    
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#32cd32",
+    "navigationBarTitleText": "三思教育",
+    "navigationBarTextStyle":"white"
+  },
+"tabBar": {
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icons/home.png",
+      "selectedIconPath": "images/icons/selectHome.png"
+    },
+    {
+    "pagePath": "pages/category/category",
+    "text": "课程分类",
+    "iconPath": "images/icons/category.png",
+    "selectedIconPath": "images/icons/selectCategory.png"
+  },
+  {
+    "pagePath": "pages/home/home",
+    "text": "预约听课",
+    "iconPath": "images/icons/order.png",
+    "selectedIconPath": "images/icons/selectOrder.png"
+  },
+ 
+  {
+    "pagePath": "pages/index/index",
+    "text": "我的",
+    "iconPath": "images/icons/mine.png",
+    "selectedIconPath": "images/icons/selectMine.png"
+  }
+  
+  ]
+}
+}

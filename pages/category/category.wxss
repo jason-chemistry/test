@@ -1,0 +1,52 @@
+.productNav{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  font-family: "Microsoft YaHei"
+}
+.left{
+  width: 25%;
+  height: 100%;
+  font-size: 30rpx;
+  background-color: #f4f4f4;
+}
+.left view{
+  text-align: center;
+  height: 100%;
+  line-height: 90rpx;
+}
+.selected{
+  background-color: #fff;
+  border-left: 2px solid #32cd32;
+  font-weight: bold;
+  color: #32cd32;
+}
+.normal{
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f2f2f2;
+}
+.right{
+  width:75%;
+  margin: 0;
+}
+swiper{
+  height: 600px;
+
+}
+.weui-cell{
+  font: bold;
+  color: #32cd32;
+ 
+}
+
+.navis{
+  margin-left:20rpx;
+  display: flex;
+  flex-direction: row;
+  font-family: "Microsoft YaHei"
+}
+.navi{
+
+  padding-left: 10rpx;
+  flex-grow: 1
+}
